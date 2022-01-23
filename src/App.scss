@@ -1,0 +1,37 @@
+#root,
+:root {
+  background-color: #222f3e;
+}
+html {
+  font-size: 100%;
+}
+
+.container-md {
+  background-color: #8395a7;
+  border-radius: 30px;
+}
+
+#header {
+  margin: 50px 0 20px 0;
+  padding-top: 20px;
+}
+
+#display {
+  margin: 20px 0;
+  color: #ffffff;
+  height: 20px;
+}
+
+.drum-pad {
+  margin: 1.5rem;
+  @media (max-width: 767.98px) {
+    margin: 0.5rem;
+  }
+  @media (max-width: 575.98px) {
+    margin: 5px;
+  }
+}
+
+#footer {
+  padding-bottom: 30px;
+}
